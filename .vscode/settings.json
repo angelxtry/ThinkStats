@@ -1,0 +1,8 @@
+{
+    "vim.useSystemClipboard": true,
+    "editor.rulers": [80,100],
+    "files.autoSave": "onFocusChange",
+    "editor.renderWhitespace": "all",
+    "python.pythonPath": "C:\\ProgramData\\Anaconda3\\envs\\py36\\python.exe",
+    "python.linting.enabled": true
+}
