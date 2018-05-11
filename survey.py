@@ -184,7 +184,7 @@ class Pregnancies(Table):
                 pass
 
 
-def main(name, data_dir='.'):
+def main(data_dir='.'):
     resp = Respondents()
     resp.ReadRecords(data_dir)
     print('Number of respondents', len(resp.records))
@@ -195,4 +195,5 @@ def main(name, data_dir='.'):
 
     
 if __name__ == '__main__':
-    main(*sys.argv)
+    main()
+

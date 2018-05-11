@@ -72,7 +72,7 @@ def Trim(t, p=0.01):
 
 def Jitter(values, jitter=0.5):
     """Jitters the values
-       by adding a uniform varuate in (-jitter, jitter).
+       by adding a uniform variate in (-jitter, jitter).
     """
     return [x + random.uniform(-jitter, jitter) for x in values]
 
